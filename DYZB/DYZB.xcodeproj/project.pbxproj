@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7208DD5C22536DBF008F4D17 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208DD5B22536DBF008F4D17 /* test.swift */; };
+		7208DD5E22536E1C008F4D17 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208DD5D22536E1C008F4D17 /* TestViewController.swift */; };
 		72A87FB5224C6E7D00681190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A87FB4224C6E7D00681190 /* AppDelegate.swift */; };
 		72A87FBA224C6E7D00681190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A87FB8224C6E7D00681190 /* Main.storyboard */; };
 		72A87FBC224C6E7E00681190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A87FBB224C6E7E00681190 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		7208DD5B22536DBF008F4D17 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		7208DD5D22536E1C008F4D17 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		72A87FB1224C6E7D00681190 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A87FB4224C6E7D00681190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72A87FB9224C6E7D00681190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		7208DD5522536C87008F4D17 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7208DD5D22536E1C008F4D17 /* TestViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A87FB5224C6E7D00681190 /* AppDelegate.swift in Sources */,
+				7208DD5E22536E1C008F4D17 /* TestViewController.swift in Sources */,
 				7208DD5C22536DBF008F4D17 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
